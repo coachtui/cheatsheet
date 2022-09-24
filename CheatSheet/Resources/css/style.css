@@ -1,0 +1,60 @@
+/* abel-regular - latin */
+@font-face {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/abel-v18-latin-regular.eot'), /* IE9 Compat Modes */
+         url('../fonts/abel-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/abel-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/abel-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/abel-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/abel-v18-latin-regular.svg#Abel') format('svg'); /* Legacy iOS */
+  }
+
+  body{
+    background-color: gainsboro;
+    font-family: 'Abel', Georgia, 'Times New Roman', Times, serif;
+  }
+
+.heading{
+    font-family: 'Abel', Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    font-weight: bold;
+    color:darkred;
+}
+
+.subheading{
+    font-family: 'Abel';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    color:darkred;
+}
+
+.tablehead{
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.table{
+    border: 2px solid darkred;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+td{
+    border-top: 1px solid darkred;
+}
+
+.tag{
+    font-family: monospace;
+    background-color: beige;
+}
